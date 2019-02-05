@@ -36,6 +36,7 @@
             this.imageAppendUI1 = new ImageAppendUI.Modules.ImageAppend.ImageAppendUI();
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -54,7 +55,7 @@
             // 
             // btnGetImage1
             // 
-            this.btnGetImage1.Location = new System.Drawing.Point(77, 314);
+            this.btnGetImage1.Location = new System.Drawing.Point(77, 338);
             this.btnGetImage1.Name = "btnGetImage1";
             this.btnGetImage1.Size = new System.Drawing.Size(75, 23);
             this.btnGetImage1.TabIndex = 3;
@@ -64,7 +65,7 @@
             // 
             // btnGetImage2
             // 
-            this.btnGetImage2.Location = new System.Drawing.Point(77, 343);
+            this.btnGetImage2.Location = new System.Drawing.Point(77, 367);
             this.btnGetImage2.Name = "btnGetImage2";
             this.btnGetImage2.Size = new System.Drawing.Size(75, 23);
             this.btnGetImage2.TabIndex = 4;
@@ -75,7 +76,7 @@
             // imageAppendUI2
             // 
             this.imageAppendUI2.ImageName = "Report Image 2";
-            this.imageAppendUI2.Location = new System.Drawing.Point(12, 163);
+            this.imageAppendUI2.Location = new System.Drawing.Point(12, 185);
             this.imageAppendUI2.Name = "imageAppendUI2";
             this.imageAppendUI2.SelectButtonVisible = false;
             this.imageAppendUI2.SelectLabelVisible = true;
@@ -103,11 +104,21 @@
             this.panel1.Size = new System.Drawing.Size(630, 565);
             this.panel1.TabIndex = 5;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(74, 163);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(18, 13);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Or";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 589);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnGetImage2);
             this.Controls.Add(this.btnGetImage1);
@@ -121,6 +132,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -133,6 +145,7 @@
         private System.Windows.Forms.Button btnGetImage2;
         private System.Windows.Forms.BindingSource bindingSource1;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label1;
     }
 }
 
